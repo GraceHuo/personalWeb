@@ -8,7 +8,22 @@ import { Component, OnInit } from "@angular/core";
 export class CertificationsAwardsComponent implements OnInit {
   certificationsList: any[] = [
     {
-      title: "Prosci Change Management",
+      title: "Microsoft Certified Azure Developer",
+      from: "Microsoft",
+      date: "2021"
+    },
+    {
+      title: "Advanced EcoSys Configuration",
+      from: "Hexagon",
+      date: "2021"
+    },
+    {
+      title: "Microsoft Certified Azure Fundamentals ",
+      from: "Microsoft",
+      date: "2021"
+    },
+    {
+      title: "Prosci Certified Change Practitioner",
       from: "Prosci / Dow",
       date: "2019"
     },
